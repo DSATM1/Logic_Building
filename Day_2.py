@@ -16,4 +16,3 @@ for char in st:
         count += 1
 print(f"Count of Vowels = {count}")"""
 
-
