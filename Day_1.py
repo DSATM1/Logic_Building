@@ -10,7 +10,7 @@
 largest = lst[0] 
 for item in lst: 
     if item > largest: 
-        largest = item print(largest) """ 
+        largest = item print(largest)""" 
 
 ###----- Pseudocode----##### 
 # create empty basket
