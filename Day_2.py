@@ -23,3 +23,11 @@ print(f"Count of Vowels = {count}")"""
 #         if i<0: 
 #             total += i 
 # print total
+
+###----Code----###
+"""l1 = [3, -1, 7, -4, 2, -9]
+total = 0
+for i in l1:
+    if i < 0:
+        total += i
+print(total)"""
