@@ -39,3 +39,10 @@ print(total)"""
 #         result = char+result
 # print(result )
 
+###----Code----###
+st = 'Suraj'
+result = ''
+for i in st:
+    result = i + result
+print(f"Origional String : {st}")    
+print(f"Reversed String : {result}")
