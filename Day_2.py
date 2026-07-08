@@ -31,3 +31,11 @@ for i in l1:
     if i < 0:
         total += i
 print(total)"""
+
+###----- Pseudocode----##### 
+# create a str
+# result = ''
+# for each char in str:
+#         result = char+result
+# print(result )
+
