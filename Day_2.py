@@ -44,5 +44,5 @@ print(total)"""
 result = ''
 for i in st:
     result = i + result
-print(f"Origional String : {st}")    
+print(f"Original String : {st}")    
 print(f"Reversed String : {result}")"""
