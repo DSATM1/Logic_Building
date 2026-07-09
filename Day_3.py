@@ -10,3 +10,13 @@
 # print count
 
 
+###----Code----###
+l = [10, 20, 30, 40, 50, 60 ]
+total = sum(l)
+avg = total/len(l)
+count = 0
+for i in l:
+    if i > avg:
+        count += 1
+print(avg)
+print(count)
