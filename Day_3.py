@@ -54,4 +54,10 @@ for i in lst:
 print(result)"""
 
 
-
+###----- Pseudocode----##### 
+# create a list 
+# empty list result = []
+# for each num in list:
+#         if num not in result :
+#               result.append(num)
+# print(result)
