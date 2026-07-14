@@ -61,3 +61,12 @@ print(result)"""
 #         if num not in result :
 #               result.append(num)
 # print(result)
+
+
+###----Code----###
+"""duplicates =  [1, 3, 2, 3, 4, 1, 5, 2]
+result = []
+for num in duplicates:
+    if num not in result:
+        result.append(num)
+print(result)"""
