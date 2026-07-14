@@ -20,3 +20,26 @@ for i in l:
         count += 1
 print(avg)
 print(count)"""
+
+
+
+###----- Pseudocode----##### 
+# input = set of words 
+# output = longest word and if tie first word 
+# rule :
+# first create a list of words 
+# words = first word of the list 
+# for each item in list : 
+#          if len(item) > len(words): 
+#                words = item 
+# print (words) 
+
+
+
+###----Code----###
+animal = ["go", "do", "be"]   #["cat", "elephant", "dog", "tiger"]
+words = []
+for word in animal:
+    if len(word) > len(words):
+        words = word
+print(words)
