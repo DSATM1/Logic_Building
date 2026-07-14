@@ -37,9 +37,9 @@ print(count)"""
 
 
 ###----Code----###
-animal = ["go", "do", "be"]   #["cat", "elephant", "dog", "tiger"]
-words = []
+"""animal = ["go", "do", "be"]   #["cat", "elephant", "dog", "tiger"]
+words = animal[0]
 for word in animal:
     if len(word) > len(words):
         words = word
-print(words)
+print(words)"""
