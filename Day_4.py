@@ -83,3 +83,10 @@ print(f"Words longer than 4 chars: {count} and  {result}")"""
 
 
 ###----Code----###
+"""lst = [1,2,3,4,5]
+total = 0
+result = []
+for i in lst:
+    result.append(total)
+    total += i
+print(result)"""
