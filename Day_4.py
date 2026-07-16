@@ -17,13 +17,11 @@
 freq = {}
 for word in sent.split():
     freq[word] = freq.get(word, 0) + 1
-
 words = sent.split()
 result = words[0]
 for word in freq:
     if freq[word] > freq[result]:
         result = word
-
 print(result)"""
 
 ###----- Pseudocode----##### 
@@ -72,3 +70,18 @@ for char in sent.split():
         count += 1
 print(f"Words longer than 4 chars: {count} and  {result}")"""
 
+
+
+###----- Pseudocode----##### 
+
+
+
+
+
+
+
+
+
+
+
+###----Code----###
