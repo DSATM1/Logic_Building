@@ -45,3 +45,21 @@ for i in range(len(lst)):
         if lst[i] + lst[j] == target:
             result.append((lst[i],lst[j]))
 print(result)"""  
+
+
+
+
+###----- Pseudocode----##### 
+# ok input - words of sent 
+# output - only words longer than 4 char 
+# rule :
+# create a sent of words 
+# create count = 0 
+# for each item in sent.split() :
+#            if len(item) > 4 : 
+#                 count += 1
+# print(count)
+
+
+
+###----Code----###
