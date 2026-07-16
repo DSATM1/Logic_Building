@@ -13,4 +13,15 @@
 
 
 ###----Code----###
-words = "the cat sat on the mat the cat"
+"""sent = "the cat sp sat on the sp mat sp the cat sp "
+freq = {}
+for word in sent.split():
+    freq[word] = freq.get(word, 0) + 1
+
+words = sent.split()
+result = words[0]
+for word in freq:
+    if freq[word] > freq[result]:
+        result = word
+
+print(result)"""
