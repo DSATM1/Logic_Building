@@ -63,3 +63,12 @@ print(result)"""
 
 
 ###----Code----###
+"""sent = "I love programming in Python every day"
+count = 0
+result = []
+for char in sent.split():
+    if len(char) > 4:
+        result.append(char)
+        count += 1
+print(f"Words longer than 4 chars: {count} and  {result}")"""
+
