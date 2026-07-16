@@ -73,15 +73,13 @@ print(f"Words longer than 4 chars: {count} and  {result}")"""
 
 
 ###----- Pseudocode----##### 
-
-
-
-
-
-
-
-
-
+# create lst
+# total = 0
+# result = []
+# for each item in lst:
+#         result.append(total)    ← first
+#         total += item ← second
+# print result
 
 
 ###----Code----###
