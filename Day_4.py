@@ -90,3 +90,14 @@ for i in lst:
     result.append(total)
     total += i
 print(result)"""
+
+
+###----- Pseudocode----##### 
+# create lst, k
+# max_sum = 0
+# for i in range(0,len(lst) - k +1):
+#           window = lst[i : i+k]
+#           window_sum = sum(window)
+#           if window_sum > max_sum:
+#                       max_sum = window_sum 
+# print max_sum
